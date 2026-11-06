@@ -1,0 +1,36 @@
+{
+  "completed_steps": 5000,
+  "steps_this_invocation": 5000,
+  "trained_target_tokens": 40960000,
+  "initial_validation_loss": 5.577577850691957,
+  "best_validation_loss": 1.6729507359024596,
+  "last_validation_loss": 1.6729507359024596,
+  "best_step": 5000,
+  "best_perplexity": 5.327865750287146,
+  "training_seconds_this_invocation": 98.69567570400068,
+  "peak_allocated_mib": 282.8623046875,
+  "best_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tinyshakespeare/best.pt",
+  "last_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tinyshakespeare/last.pt",
+  "loaded_best_step": 5000,
+  "samples": [
+    {
+      "prompt": "ROMEO:\n",
+      "text": "ROMEO:\nI will the shall be the shall be the stands thee\nThat the shall be the shall be the stand thee\nT",
+      "new_tokens": 96,
+      "ended_with_eos": false
+    },
+    {
+      "prompt": "First Citizen:\n",
+      "text": "First Citizen:\nThe shall the will the shall be the seen the shall\nThe shall be the see that the son the see the",
+      "new_tokens": 96,
+      "ended_with_eos": false
+    },
+    {
+      "prompt": "The capital of France is",
+      "text": "The capital of France is the sent,\nAnd the shall be the stand the stand the stand\nThe shall be the stand the stand the s",
+      "new_tokens": 96,
+      "ended_with_eos": false
+    }
+  ],
+  "sample_note": "Greedy samples are illustrative; validation loss is measured on held-out paragraphs."
+}

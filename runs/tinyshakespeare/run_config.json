@@ -1,0 +1,45 @@
+{
+  "model_config": {
+    "vocab_size": 258,
+    "hidden_size": 128,
+    "num_heads": 4,
+    "num_layers": 2,
+    "intermediate_size": 512,
+    "max_seq_len": 256,
+    "rms_norm_eps": 1e-06
+  },
+  "tokenizer": {
+    "type": "utf8_bytes",
+    "vocab_size": 258,
+    "bos_token_id": 257,
+    "eos_token_id": 256
+  },
+  "training": {
+    "batch_size": 32,
+    "seq_len": 256,
+    "lr": 0.0003,
+    "warmup_steps": 100,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "steps": 5000
+  },
+  "data": {
+    "path": "/mnt/e/ai_infra/my_vllm/data/tinyshakespeare.txt",
+    "source_url": "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt",
+    "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+    "bytes": 1115394,
+    "split": "first_90_percent_of_exact_deduplicated_paragraphs",
+    "documents": 7148,
+    "train_documents": 6433,
+    "validation_documents": 715,
+    "train_tokens": 1038438,
+    "validation_tokens": 83058
+  },
+  "source_sha256": {
+    "decoder_only.py": "3b9f3261e58a798dfdf791270a152acc3e6b98738f1ad890814046165be19dbf",
+    "decoder_only_mine.py": "69a07e70c75bffab27e89d102b6069426f8c9a7a8e7b2d691b75de0a92ae0e3e"
+  },
+  "torch_version": "2.9.1+cu128",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

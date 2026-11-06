@@ -1,0 +1,260 @@
+{
+  "source": "/mnt/e/ai_infra/my_vllm/data/chinese-poetry",
+  "source_url": "https://github.com/chinese-poetry/chinese-poetry",
+  "source_commit": "b8594f81a89752241442f2ce267d6f66f96704ee",
+  "selection": "全唐诗/poet.tang.*.json (Tang poems only)",
+  "source_files": 58,
+  "source_sha256": [
+    {
+      "path": "全唐诗/poet.tang.0.json",
+      "sha256": "ec579a5d5ee2f0d4b95a2e028e8749133ec9e9a4f66871d455edde2bdd614c4d"
+    },
+    {
+      "path": "全唐诗/poet.tang.1000.json",
+      "sha256": "0be537a65700e6a0ef802caead10aea606f89cd56b476e3ede5dc70e13d326e4"
+    },
+    {
+      "path": "全唐诗/poet.tang.2000.json",
+      "sha256": "d102ecaf2c5db330456e64cd4eeeb663d9eb337f29efedd367b0c01551f3e359"
+    },
+    {
+      "path": "全唐诗/poet.tang.3000.json",
+      "sha256": "d986171fb84cba8d30513832e9f35fa8484086eb0db9566df58ce6f275f0f273"
+    },
+    {
+      "path": "全唐诗/poet.tang.4000.json",
+      "sha256": "029f23bafb11171618329b7e0130b9d24fba517150c2207440c510059b0824f9"
+    },
+    {
+      "path": "全唐诗/poet.tang.5000.json",
+      "sha256": "a1bbc715e2cdf5ddf60568e0c8203a6f7abf2defec34a003dc7f9f03ee711bdd"
+    },
+    {
+      "path": "全唐诗/poet.tang.6000.json",
+      "sha256": "28cbf121f8b7128a04f9eb60720d4bda8492d722092a304feef6da802c32bfce"
+    },
+    {
+      "path": "全唐诗/poet.tang.7000.json",
+      "sha256": "efa7e499711e049b9d78e3faf104143e3cc033224289aec07bf931d8d34f2688"
+    },
+    {
+      "path": "全唐诗/poet.tang.8000.json",
+      "sha256": "75e875fbe37536a54cf2354b421555f5c2d103e5356abbbb35279d5c80f69e43"
+    },
+    {
+      "path": "全唐诗/poet.tang.9000.json",
+      "sha256": "b7bfd6566dda64c733efb198f2d4648867fe834c1a8ac33542f3d9ad70e96b78"
+    },
+    {
+      "path": "全唐诗/poet.tang.10000.json",
+      "sha256": "f1d46841686b82247c512ae33a9fe5ae517245b34e213cff030b4d67231514ba"
+    },
+    {
+      "path": "全唐诗/poet.tang.11000.json",
+      "sha256": "52701e0454e474b3619d4bbcf7c178364b65c79292597c7a16368c0e10db2708"
+    },
+    {
+      "path": "全唐诗/poet.tang.12000.json",
+      "sha256": "24d5fa5767f6bc99556917bae840690d62bfd5e2e95adfc6981f79382bbf9cbe"
+    },
+    {
+      "path": "全唐诗/poet.tang.13000.json",
+      "sha256": "61d6577ec101b9fab876ec8d445902e85564104c9189e3d1fa9e06f368095fcf"
+    },
+    {
+      "path": "全唐诗/poet.tang.14000.json",
+      "sha256": "3d84f313f7d364922e9d1be9e98b566ecfd4b921f6cde2c91e7a4e6776acfc20"
+    },
+    {
+      "path": "全唐诗/poet.tang.15000.json",
+      "sha256": "785922b78881c28978329cbd3515ecdf06e364eda11f5753e7d151e35a2b587f"
+    },
+    {
+      "path": "全唐诗/poet.tang.16000.json",
+      "sha256": "3d9904424d09f2319ae85407471979a7c69822cdebc447519ad35dbd5f6396be"
+    },
+    {
+      "path": "全唐诗/poet.tang.17000.json",
+      "sha256": "e16d07b3c8eb29daaf6ae674a1b6a684d64efc7162bea3923231785bdf130060"
+    },
+    {
+      "path": "全唐诗/poet.tang.18000.json",
+      "sha256": "72134ffbe74faf1e93848ac02273b277bae8b4dc87700ef8078d019220c5fbc7"
+    },
+    {
+      "path": "全唐诗/poet.tang.19000.json",
+      "sha256": "4bcb714b7b7ecb479efa968db9b993e2e2a3918a7b15f8848d389ccdc4186bc1"
+    },
+    {
+      "path": "全唐诗/poet.tang.20000.json",
+      "sha256": "548ee88132a8f03cc8280220c1c1e7e65a4d1a0d02e3b220e8b9b469a48b0180"
+    },
+    {
+      "path": "全唐诗/poet.tang.21000.json",
+      "sha256": "89666b2e4713c458153542f698a1b432f2526a575fe17d5a7397f54bc58790fc"
+    },
+    {
+      "path": "全唐诗/poet.tang.22000.json",
+      "sha256": "03709ab96056573801149ddd5493491be4ecbcd13195a0159a1d337e7716eff4"
+    },
+    {
+      "path": "全唐诗/poet.tang.23000.json",
+      "sha256": "a6dc82cc45ce45876df3642cb84f9e5cc4d7d5392cae1fa724609b5c364274b7"
+    },
+    {
+      "path": "全唐诗/poet.tang.24000.json",
+      "sha256": "12112470b05236f4330a55aa2755daac422dc9d2f78f2b97c4f87591b42075e7"
+    },
+    {
+      "path": "全唐诗/poet.tang.25000.json",
+      "sha256": "441f62dd222a8d196f6a58955a2dab2f91a3687095a20f59f356f66fe0c2ce2e"
+    },
+    {
+      "path": "全唐诗/poet.tang.26000.json",
+      "sha256": "2b8443c7641cb0dc3692577bd63c348510960abea11bbaa7b0c85b2efb2e6ad0"
+    },
+    {
+      "path": "全唐诗/poet.tang.27000.json",
+      "sha256": "7897cbef762e9095ab32f7c0227c1d31c775db05a35da71a96ffe69b14ad8e10"
+    },
+    {
+      "path": "全唐诗/poet.tang.28000.json",
+      "sha256": "097e06f752430081455e6f4c04be0a0cd46a4488275713cceaeaea9279d0c811"
+    },
+    {
+      "path": "全唐诗/poet.tang.29000.json",
+      "sha256": "36e2a6d2c09a85add92cf2f150af1c04413ab0fd740215b20e15431da9adfe8e"
+    },
+    {
+      "path": "全唐诗/poet.tang.30000.json",
+      "sha256": "3e7c1294a3527faa023d912972e7c212e2195bc5fa42b689602c7b1172120479"
+    },
+    {
+      "path": "全唐诗/poet.tang.31000.json",
+      "sha256": "3890bae00e37c2fdf1b827debb76e4bad57d1f440bc122b5ad84b74da2b6c391"
+    },
+    {
+      "path": "全唐诗/poet.tang.32000.json",
+      "sha256": "d8ab899aa12be92adb0a19582267e5401a485e86ce15f6ffb97782de8e118b4e"
+    },
+    {
+      "path": "全唐诗/poet.tang.33000.json",
+      "sha256": "351d8703edd103cc7a9c5a79a61293ee507e82099177b79babbc089a94f0e6f5"
+    },
+    {
+      "path": "全唐诗/poet.tang.34000.json",
+      "sha256": "669cf8031b8c44b48994930780ddfd9ee524262f778bcf661323ffee283d1c56"
+    },
+    {
+      "path": "全唐诗/poet.tang.35000.json",
+      "sha256": "753a3c6313415dc41bec6eb5a06fd6b30afc533fb1ed1d3ac8b6495362768fe6"
+    },
+    {
+      "path": "全唐诗/poet.tang.36000.json",
+      "sha256": "6585819da1abb6965d0b2c13e0ee7974ebae3b241a01de5888a9288130e9e67e"
+    },
+    {
+      "path": "全唐诗/poet.tang.37000.json",
+      "sha256": "bfd0cd6ebf618365afe09d69e8b24f015a102ff6344bd647e1ff7cfbb75b11ef"
+    },
+    {
+      "path": "全唐诗/poet.tang.38000.json",
+      "sha256": "02b40910b4390ff8d183a69359dafad7a66d0ebe096801bc65738bea1e1a50f9"
+    },
+    {
+      "path": "全唐诗/poet.tang.39000.json",
+      "sha256": "0a7bed946f876c9dea8adc53693cfb716e2efbb1cd262356e4e660eeaf8622ec"
+    },
+    {
+      "path": "全唐诗/poet.tang.40000.json",
+      "sha256": "25ef4c3edf651329819425e386922278ecf9c57ad347c18db6dc233ff6dbbe75"
+    },
+    {
+      "path": "全唐诗/poet.tang.41000.json",
+      "sha256": "a8627428c54dd2e056e405c2c90ba46b2547709bc289017a49afe53d1fa4c8d4"
+    },
+    {
+      "path": "全唐诗/poet.tang.42000.json",
+      "sha256": "34288c07c2ed324bd22e10e407ce8be8cd67e43e99f602c0ba559f6fdeca2c8a"
+    },
+    {
+      "path": "全唐诗/poet.tang.43000.json",
+      "sha256": "7d22683df8aa51feb789e458c214ef2b78a91e78d18056fe9747f926c8bf46fd"
+    },
+    {
+      "path": "全唐诗/poet.tang.44000.json",
+      "sha256": "048382bef7b4b95bebb94b180d3ee8782a8371f2a9c730a7153e3710337e44ad"
+    },
+    {
+      "path": "全唐诗/poet.tang.45000.json",
+      "sha256": "5fc2f9d91c9ddcdedee8f6bd733d21735ac7d2180509d9347811ccf1b02c251d"
+    },
+    {
+      "path": "全唐诗/poet.tang.46000.json",
+      "sha256": "20b2b6d77b1f7149ae54367afab5fea52c25b9be5e13ab93e26a78e8c5e296b4"
+    },
+    {
+      "path": "全唐诗/poet.tang.47000.json",
+      "sha256": "879af28e35f13fc11b30948b53ed1cda7b216d0a98229ba8752c309f370a9ddc"
+    },
+    {
+      "path": "全唐诗/poet.tang.48000.json",
+      "sha256": "2e8233b10eab4eddc1b59b9f18b8845a761dcbdd4fc594d19a660f8bc6dbfcca"
+    },
+    {
+      "path": "全唐诗/poet.tang.49000.json",
+      "sha256": "1add1ab7babe3597aa4c6de5b71409ec66407b0f10fe0e0a08de105f59835795"
+    },
+    {
+      "path": "全唐诗/poet.tang.50000.json",
+      "sha256": "3c4ac2ed59e8ecc26cf2946b78074cb72a992a0578ec625453a19cab2b1c6bb8"
+    },
+    {
+      "path": "全唐诗/poet.tang.51000.json",
+      "sha256": "4f4a9d40ee5d692e0f96d0f9a9ff986bf1ff11491ed5c3298a925658324a0cd8"
+    },
+    {
+      "path": "全唐诗/poet.tang.52000.json",
+      "sha256": "a3e79ef4ca0348d902e63c83bb51cb1f8c7b77a8d51e16aa1ec9170099783e83"
+    },
+    {
+      "path": "全唐诗/poet.tang.53000.json",
+      "sha256": "75977e0bc3119bb0263643a40150d71c09978c121a9f1bd36ac57e45f990b662"
+    },
+    {
+      "path": "全唐诗/poet.tang.54000.json",
+      "sha256": "085f2593799467480ed45f201f0b7142713ab2c6ffd9208c67b863e1837e59a0"
+    },
+    {
+      "path": "全唐诗/poet.tang.55000.json",
+      "sha256": "7b9b23a80ebcc28e6b2e0bcdfbf17600cce045a76d55291bd6118343b10c9761"
+    },
+    {
+      "path": "全唐诗/poet.tang.56000.json",
+      "sha256": "021b6c8b5b3a349358f44de8df2d74294e120b8dc6193d9e9ad56528d910aa9c"
+    },
+    {
+      "path": "全唐诗/poet.tang.57000.json",
+      "sha256": "f3ed356dc7b820450a64d8bdf728e4adc21a1523cdfb7da974d5e813a3d6d011"
+    }
+  ],
+  "preparation": "NFC; remove whitespace inside lines; reject missing/corrupt text and ASCII alphanumerics; deduplicate bodies ignoring punctuation/whitespace; body only",
+  "counts": {
+    "raw_poems": 57607,
+    "missing_or_invalid_characters": 453,
+    "duplicate_bodies": 822,
+    "ascii_letters_or_digits": 364,
+    "empty_body": 176,
+    "invalid_structure": 4,
+    "retained_poems": 55788
+  },
+  "body_characters": 3697222,
+  "max_body_characters": 3277,
+  "all_corpus_unique_characters": 9395,
+  "corpus": "/mnt/e/ai_infra/my_vllm/data/tang_poetry/poems.txt",
+  "corpus_bytes": 10794190,
+  "corpus_sha256": "2dcd2b376ec893128c71e4076b139c011215f86fed84066cef03cc01f6b47db7",
+  "preparation_script_sha256": "862ba341c821fd955d0845e5fb34e45bb6334f5869d55ec21010c62283aa7951",
+  "format": "one poem body per document; blank line separates documents; original traditional Chinese retained",
+  "split": "performed by train.py before building tokenizer and token windows"
+}

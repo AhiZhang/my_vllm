@@ -1,0 +1,42 @@
+{
+  "completed_steps": 10000,
+  "steps_this_invocation": 10000,
+  "trained_target_tokens": 40960000,
+  "initial_validation_loss": 9.191113244254325,
+  "best_validation_loss": 4.068519340268177,
+  "last_validation_loss": 4.088535489962549,
+  "best_step": 7000,
+  "best_perplexity": 58.47032381246923,
+  "training_seconds_this_invocation": 269.74719974599975,
+  "peak_allocated_mib": 727.2705078125,
+  "best_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tang-poetry/best.pt",
+  "last_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tang-poetry/last.pt",
+  "loaded_best_step": 7000,
+  "samples": [
+    {
+      "prompt": "",
+      "text": "秋風送客怨楚絲，白蓮浮動天邊月。\n玉輪金磧金鳳高，金城玉關心獨死。\n",
+      "new_tokens": 35,
+      "ended_with_eos": true,
+      "temperature": 0.8,
+      "seed": 42
+    },
+    {
+      "prompt": "春",
+      "text": "春秋曉景，蘋楚開時節。\n珠絡環且繁，金盤薦其實。\n遠遊恆不止，輕舉生朱紱。\n偉哉嘆息機，不覺身自促。\n",
+      "new_tokens": 51,
+      "ended_with_eos": true,
+      "temperature": 0.8,
+      "seed": 42
+    },
+    {
+      "prompt": "明月",
+      "text": "明月夜半天，雲楚驚蓬島。\n常遊洞穴浦，忽向金門宿。\n遠客論徒勞，輕帆惜迴首。\n東風吹慘澹，西日桃源路。\n天地日出山，雲霄未還客。\n秦川久不處，人事多非久。\n",
+      "new_tokens": 77,
+      "ended_with_eos": true,
+      "temperature": 0.8,
+      "seed": 42
+    }
+  ],
+  "sample_note": "Temperature samples are illustrative (t=0 is greedy); validation loss is measured on held-out paragraphs."
+}

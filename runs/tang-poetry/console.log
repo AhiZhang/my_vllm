@@ -1,0 +1,141 @@
+{
+  "parameters": 7890176,
+  "device": "cuda",
+  "data": {
+    "path": "/mnt/e/ai_infra/my_vllm/data/tang_poetry/poems.txt",
+    "source_url": null,
+    "sha256": "2dcd2b376ec893128c71e4076b139c011215f86fed84066cef03cc01f6b47db7",
+    "bytes": 10794190,
+    "split": "seeded_shuffle_then_90_percent",
+    "split_seed": 42,
+    "documents": 55788,
+    "train_documents": 50209,
+    "validation_documents": 5579,
+    "train_tokens": 3484473,
+    "validation_tokens": 380113,
+    "validation_unknown_tokens": 229
+  },
+  "output_dir": "/mnt/e/ai_infra/my_vllm/runs/tang-poetry",
+  "training": {
+    "batch_size": 32,
+    "seq_len": 128,
+    "lr": 0.0006,
+    "warmup_steps": 300,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "steps": 10000,
+    "precision": "bf16"
+  }
+}
+Initial validation loss: 9.1911; resuming at step 0
+step   100/10000: train_loss=7.6488, lr=2.00e-04
+step   200/10000: train_loss=5.9786, lr=4.00e-04
+step   300/10000: train_loss=5.5968, lr=6.00e-04
+step   400/10000: train_loss=5.3587, lr=6.00e-04
+step   500/10000: train_loss=5.2051, lr=5.99e-04
+step   600/10000: train_loss=5.0586, lr=5.99e-04
+step   700/10000: train_loss=4.9410, lr=5.98e-04
+step   800/10000: train_loss=4.8382, lr=5.96e-04
+step   900/10000: train_loss=4.7382, lr=5.95e-04
+step  1000/10000: train_loss=4.6692, lr=5.93e-04
+  validation_loss=4.6800, best=4.6800 at step 1000
+step  1100/10000: train_loss=4.5999, lr=5.91e-04
+step  1200/10000: train_loss=4.5374, lr=5.89e-04
+step  1300/10000: train_loss=4.4840, lr=5.86e-04
+step  1400/10000: train_loss=4.4428, lr=5.83e-04
+step  1500/10000: train_loss=4.3783, lr=5.80e-04
+step  1600/10000: train_loss=4.3509, lr=5.76e-04
+step  1700/10000: train_loss=4.3115, lr=5.73e-04
+step  1800/10000: train_loss=4.2963, lr=5.69e-04
+step  1900/10000: train_loss=4.2470, lr=5.65e-04
+step  2000/10000: train_loss=4.2370, lr=5.60e-04
+  validation_loss=4.3511, best=4.3511 at step 2000
+step  2100/10000: train_loss=4.1951, lr=5.55e-04
+step  2200/10000: train_loss=4.1770, lr=5.50e-04
+step  2300/10000: train_loss=4.1586, lr=5.45e-04
+step  2400/10000: train_loss=4.1324, lr=5.40e-04
+step  2500/10000: train_loss=4.1210, lr=5.34e-04
+step  2600/10000: train_loss=4.0878, lr=5.28e-04
+step  2700/10000: train_loss=4.0689, lr=5.22e-04
+step  2800/10000: train_loss=4.0477, lr=5.16e-04
+step  2900/10000: train_loss=4.0286, lr=5.10e-04
+step  3000/10000: train_loss=4.0027, lr=5.03e-04
+  validation_loss=4.2204, best=4.2204 at step 3000
+step  3100/10000: train_loss=3.9774, lr=4.96e-04
+step  3200/10000: train_loss=3.9669, lr=4.89e-04
+step  3300/10000: train_loss=3.9343, lr=4.82e-04
+step  3400/10000: train_loss=3.9251, lr=4.75e-04
+step  3500/10000: train_loss=3.9048, lr=4.68e-04
+step  3600/10000: train_loss=3.8854, lr=4.60e-04
+step  3700/10000: train_loss=3.8682, lr=4.52e-04
+step  3800/10000: train_loss=3.8488, lr=4.44e-04
+step  3900/10000: train_loss=3.8413, lr=4.36e-04
+step  4000/10000: train_loss=3.8264, lr=4.28e-04
+  validation_loss=4.1261, best=4.1261 at step 4000
+step  4100/10000: train_loss=3.7993, lr=4.20e-04
+step  4200/10000: train_loss=3.7908, lr=4.12e-04
+step  4300/10000: train_loss=3.7698, lr=4.03e-04
+step  4400/10000: train_loss=3.7681, lr=3.95e-04
+step  4500/10000: train_loss=3.7469, lr=3.86e-04
+step  4600/10000: train_loss=3.7270, lr=3.78e-04
+step  4700/10000: train_loss=3.7222, lr=3.69e-04
+step  4800/10000: train_loss=3.7083, lr=3.61e-04
+step  4900/10000: train_loss=3.6821, lr=3.52e-04
+step  5000/10000: train_loss=3.6804, lr=3.43e-04
+  validation_loss=4.0862, best=4.0862 at step 5000
+step  5100/10000: train_loss=3.6542, lr=3.34e-04
+step  5200/10000: train_loss=3.6511, lr=3.26e-04
+step  5300/10000: train_loss=3.6465, lr=3.17e-04
+step  5400/10000: train_loss=3.6298, lr=3.08e-04
+step  5500/10000: train_loss=3.6056, lr=2.99e-04
+step  5600/10000: train_loss=3.6072, lr=2.91e-04
+step  5700/10000: train_loss=3.6103, lr=2.82e-04
+step  5800/10000: train_loss=3.5745, lr=2.74e-04
+step  5900/10000: train_loss=3.5735, lr=2.65e-04
+step  6000/10000: train_loss=3.5604, lr=2.57e-04
+  validation_loss=4.0691, best=4.0691 at step 6000
+step  6100/10000: train_loss=3.5441, lr=2.48e-04
+step  6200/10000: train_loss=3.5468, lr=2.40e-04
+step  6300/10000: train_loss=3.5290, lr=2.32e-04
+step  6400/10000: train_loss=3.5232, lr=2.24e-04
+step  6500/10000: train_loss=3.5145, lr=2.16e-04
+step  6600/10000: train_loss=3.5171, lr=2.08e-04
+step  6700/10000: train_loss=3.4918, lr=2.00e-04
+step  6800/10000: train_loss=3.4997, lr=1.92e-04
+step  6900/10000: train_loss=3.4721, lr=1.85e-04
+step  7000/10000: train_loss=3.4682, lr=1.78e-04
+  validation_loss=4.0685, best=4.0685 at step 7000
+step  7100/10000: train_loss=3.4628, lr=1.71e-04
+step  7200/10000: train_loss=3.4534, lr=1.64e-04
+step  7300/10000: train_loss=3.4497, lr=1.57e-04
+step  7400/10000: train_loss=3.4386, lr=1.50e-04
+step  7500/10000: train_loss=3.4281, lr=1.44e-04
+step  7600/10000: train_loss=3.4264, lr=1.38e-04
+step  7700/10000: train_loss=3.4128, lr=1.32e-04
+step  7800/10000: train_loss=3.4184, lr=1.26e-04
+step  7900/10000: train_loss=3.4107, lr=1.20e-04
+step  8000/10000: train_loss=3.3886, lr=1.15e-04
+  validation_loss=4.0736, best=4.0685 at step 7000
+step  8100/10000: train_loss=3.3901, lr=1.10e-04
+step  8200/10000: train_loss=3.3858, lr=1.05e-04
+step  8300/10000: train_loss=3.3859, lr=9.99e-05
+step  8400/10000: train_loss=3.3791, lr=9.54e-05
+step  8500/10000: train_loss=3.3842, lr=9.12e-05
+step  8600/10000: train_loss=3.3638, lr=8.73e-05
+step  8700/10000: train_loss=3.3775, lr=8.36e-05
+step  8800/10000: train_loss=3.3626, lr=8.01e-05
+step  8900/10000: train_loss=3.3512, lr=7.70e-05
+step  9000/10000: train_loss=3.3596, lr=7.40e-05
+  validation_loss=4.0797, best=4.0685 at step 7000
+step  9100/10000: train_loss=3.3532, lr=7.14e-05
+step  9200/10000: train_loss=3.3455, lr=6.90e-05
+step  9300/10000: train_loss=3.3363, lr=6.69e-05
+step  9400/10000: train_loss=3.3372, lr=6.51e-05
+step  9500/10000: train_loss=3.3386, lr=6.35e-05
+step  9600/10000: train_loss=3.3189, lr=6.23e-05
+step  9700/10000: train_loss=3.3243, lr=6.13e-05
+step  9800/10000: train_loss=3.3256, lr=6.06e-05
+step  9900/10000: train_loss=3.3159, lr=6.01e-05
+step 10000/10000: train_loss=3.3192, lr=6.00e-05
+  validation_loss=4.0885, best=4.0685 at step 7000
+TRAINING_COMPLETE: {"completed_steps": 10000, "steps_this_invocation": 10000, "trained_target_tokens": 40960000, "initial_validation_loss": 9.191113244254325, "best_validation_loss": 4.068519340268177, "last_validation_loss": 4.088535489962549, "best_step": 7000, "best_perplexity": 58.47032381246923, "training_seconds_this_invocation": 269.74719974599975, "peak_allocated_mib": 727.2705078125, "best_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tang-poetry/best.pt", "last_checkpoint": "/mnt/e/ai_infra/my_vllm/runs/tang-poetry/last.pt", "loaded_best_step": 7000, "samples": [{"prompt": "", "text": "秋風送客怨楚絲，白蓮浮動天邊月。\n玉輪金磧金鳳高，金城玉關心獨死。\n", "new_tokens": 35, "ended_with_eos": true, "temperature": 0.8, "seed": 42}, {"prompt": "春", "text": "春秋曉景，蘋楚開時節。\n珠絡環且繁，金盤薦其實。\n遠遊恆不止，輕舉生朱紱。\n偉哉嘆息機，不覺身自促。\n", "new_tokens": 51, "ended_with_eos": true, "temperature": 0.8, "seed": 42}, {"prompt": "明月", "text": "明月夜半天，雲楚驚蓬島。\n常遊洞穴浦，忽向金門宿。\n遠客論徒勞，輕帆惜迴首。\n東風吹慘澹，西日桃源路。\n天地日出山，雲霄未還客。\n秦川久不處，人事多非久。\n", "new_tokens": 77, "ended_with_eos": true, "temperature": 0.8, "seed": 42}], "sample_note": "Temperature samples are illustrative (t=0 is greedy); validation loss is measured on held-out paragraphs."}
